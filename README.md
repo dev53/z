@@ -1,4 +1,5 @@
 # z
+![Node.js CI](https://github.com/dev53/z/workflows/Node.js%20CI/badge.svg)
 
 ## Requirements
 - nodejs v12+
