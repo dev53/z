@@ -1,6 +1,6 @@
 const log = console.log.bind(console)
 
-function getUserById (id = '') {
+function getUserById (id = '') { // mock fn
   return Promise.resolve({
     username: 'someString',
     id: id || 'someString',
@@ -10,7 +10,7 @@ function getUserById (id = '') {
   })
 }
 
-function sendEmail (u = {}) {
+function sendEmail (u = {}) { // mock fn
   return Promise.resolve(Number(u.id) % 2 === 0 ? '200' : '500')
 }
 
